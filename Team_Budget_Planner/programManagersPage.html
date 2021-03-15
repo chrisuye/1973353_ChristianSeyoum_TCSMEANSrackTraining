@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TeamBudgetPlannerStyle.css">
+    <script src="programManagersPlanner.js"></script>
+    <title>Team Budget Planner</title>
+</head>
+<body>
+    <p id="title">Program Managers</p>
+    <div id="input">
+        <p id="subTitle">Add New Budget</p>
+        <form>
+            <label class="label">Client Name</label>
+            <input type="text" id="clientName"/><br/>
+            <label>Program Name</label>
+            <input type="text" id="programName"/><br/>
+            <label>Budget</label>
+            <input type="number" id="budget"/><br/><br><br>
+            <input type="button" value="Add" onclick="addBudget()"/><br/>
+            <input type="button" value="Clear" onclick="clearInputs()"/>
+        </form>
+        <a href="index.html">Back</a><br/>
+    </div>
+</body>
+</html>

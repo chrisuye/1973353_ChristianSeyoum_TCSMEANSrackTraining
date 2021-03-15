@@ -1,0 +1,41 @@
+
+div {
+    width: 250px;
+    height: 250px;
+    font-size: large;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -120px;
+    margin-top: -100px;
+}
+
+#input {
+    width: 300px;
+    height: 300px;
+    font-size: large;
+    font-style: normal;
+    font-weight: bold;
+    margin-left: -150px;
+}
+
+#table {
+    width: 300px;
+    height: 300px;
+    font-size: large;
+    text-align: center; 
+}
+
+#title {
+    font-size: 50px;
+    color: blue;
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+}
+
+#subTitle {
+    font-size: large;
+    color: green;
+    font-weight: bold;
+}
