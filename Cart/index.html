@@ -1,0 +1,157 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <title>Shopping Cart</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Shopping Cart</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"> 
+                    <a class="nav-link active" href="cart.html">Checkout</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+
+        <h3 id="cartBut">
+            Cart Size:
+            <small class="text-muted" id="cartSize">0</small>
+        </h3>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/Transparentspeakers.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Transparent speakers</h2>
+                <p> Apart from public toilets, there are few things in life that aren’t made better by being see-through. Case in point, this speaker that replaces its housing with tempered glass.</p>
+
+                <p> Its creator, the Swedish design studio Transparent, says that its speakers use durable, recyclable materials. Each of the devices can be used alone as a Bluetooth speaker, paired together as a stereo sound system, or plugged into existing audio equipment.</p>
+                    
+                <p> It’s upgradeable too, with a compartment at the rear that can hold and power various modules – a voice assistant, for example, or new wireless tech.</p>
+                
+                <p class="price">Price = <mark>$799</mark></p>
+                <p id="speakerBought">Items Added =0</p>
+                <button id="speakerBuy">Buy</button>
+                <button id="speakerRemove">Remove</button>
+                <button id="speakerRemoveAll">Remove All</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/XiaomiMiAirCharge.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Xiaomi Mi Air Charge</h2>
+                <p> It’s early days, but Xiaomi has shown off a demo of a product it’s planning to put on sale this year. It’s called Mi Air Charge technology, and it uses 144 micro-antennae to transfer energy to your phone via a narrow wave beam.</p>
+
+                <p> According to Xiaomi’s demo, you’d be able to walk into a room and your phone would start charging, even if an object was in the way. Eventually, Xiaomi says it could be used to charge multiple devices at once in the room it’s sat in.</p>
+
+                <p> It’s tech we’ve seen presented at conferences before, but never so close to an actual final product.</p>
+                
+                <p class="price">Price = <mark>$1000</mark></p>
+                <p id="chargeBought">Items Added = 0</p>
+                <button id="chargeBuy">Buy</button>
+                <button id="chargeRemove">Remove</button>
+                <button id="chargeRemoveAll">Remove All</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/VaonisVesperasmarttelescope.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Vaonis Vespera smart telescope</h2>
+                
+                <p> The notion of a telescope without an eyepiece to look through could inspire a few strongly worded letters from our readers, but we can’t help but lust after this beautiful new telescope from Italian company Vaonis (even if it does cost around £1,300).</p>
+
+                <p> The Vespera takes the work out of stargazing. The scope takes the images hitting its sensors and sends a live-view to your smartphone or tablet via Wi-Fi. This means you can set up the telescope outside (it has a four-hour battery life), jump under the covers and tour the Universe.</p>
+
+                <p>  The app presents a list of cosmic points of interest to point the telescope towards, like the birth of a star, and the motors and GPS aboard the telescope point the lens in the right direction. From there you can watch the view live, take stacks of photos to reveal more detail and share what you’re seeing with friends.</p>
+
+                <p>  You can even schedule observations if you want to capture something while you’re asleep. Right now you’ll have to wait til 2022 to get your hands on a ‘scope, but it’s bigger sibling, the Stellina, is on sale now.</p>
+                
+                <p class="price">Price = <mark>$1500</mark></p>
+                <p id="telescopeBought">Items Added = 0</p>
+                <button id="telescopeBuy">Buy</button>
+                <button id="telescopeRemove">Remove</button>
+                <button id="telescopeRemoveAll">Remove All</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/GradoGT220wirelessearbuds.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Grado GT220 wireless earbuds</h2>
+                <p> Building great earphones is a bit of a dark art. The goal is to create the illusion of a big, spacious sound out of something very small. Most of the time, earbuds can’t quite pull off this trick, so you end up with audio that can lack bass, sound tinny or seem distant (or in some cases all three).</p>
+
+                <p> The GT220 wireless earbuds from the Brooklyn-based, family-run Grado avoids all of these pitfalls to make the most out of your music. The earbuds handle the big bassy electronic beats of Run the Jewels just as well as they delicate, breathy vocals of Nick Hakim. All the highs and lows have room to be heard.</p>
+
+                <p> I suspect half the reason they sound so good is down to the fit. The earbuds twist into place with ease and sit there comfortably for hours, without any danger of falling out. There’s six hours of listening time between charges and another 30 hours of charge held in the case. There are plenty of extra features too, like wireless charging, touch controls and a degree of waterproofing.</p>
+                
+                <p class="price">Price = <mark>$300</mark></p>
+                <p id="earbudsBought">Items Added = 0</p>
+                <button id="earbudsBuy">Buy</button>
+                <button id="earbudsRemove">Remove</button>
+                <button id="earbudsRemoveAll">Remove All</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/OralBIOtoothbrush.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Oral B IO toothbrush</h2>
+                <p> Ok, let’s be honest, we’re not totally sold on the idea of a gadget that winks and smiles at you when you put it in your mouth.</p>
+
+                <p> That aside, this toothbrush is crammed with an almost implausible amount of tech. Sensors inside will track the brush’s movement as you clean your teeth and map out areas you’ve missed.</p>
+
+                <p> There are separate modes depending on your mood, like “Intense Clean” after a particularly sweary day or something gentler for those with sensitive gums. A new pressure sensor inside will also warn you if you’re brushing technique starts to verge into self-flagellation.</p>
+                
+                <p class="price">Price = <mark>$250</mark></p>
+                <p id="toothbrushBought">Items Added = 0</p>
+                <button id="toothbrushBuy">Buy</button>
+                <button id="toothbrushRemove">Remove</button>
+                <button id="toothbrushRemoveAll">Remove All</button>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="./images/Philips558M1RYdisplay.png" class="img-thumbnail">
+            </div>
+            <div class="col-md-8">
+                <h2 class="card-title mt-3" id="showTitle">Philips 558M1RY display</h2>
+                <p> If you end up using your TV for gaming more than, well, watching TV, then you might want to consider one of a new breed of displays built for consoles. This model from Phillips boasts an ultra-fast response time (4ms) at ultra-HD resolution, which means you’ll have no excuses left when you’re sniped by an energy-drink-riddled 12-year-old from the other side of the map.</p>
+
+                <p> If Animal Crossing is more your pace, then this model is also kitted out with a rather neat speaker system along the base built by British Hi-Fi stalwarts Bowers and Wilkins, which will make the game’s lilting trumpet melody all the more soothing for your soul. Philips’ Ambiglow tech is on board too, which extends the picture beyond the frame of the display via LEDS along the edges of the panel.</p>
+                
+                <p class="price">Price = <mark>$1200</mark></p>
+                <p id="displayBought">Items Added = 0</p>
+                <button id="displayBuy">Buy</button>
+                <button id="displayRemove">Remove</button>
+                <button id="displayRemoveAll">Remove All</button>
+            </div>
+            <br>
+            <br>
+        </div>
+        <script src="index.js"></script>
+    </body>
+    </html>
