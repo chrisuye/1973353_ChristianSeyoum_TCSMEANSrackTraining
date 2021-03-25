@@ -1,0 +1,22 @@
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <span class="navbar-text">
+      Login Form
+    </span>
+  </div>
+</nav>
+
+<div class="container-md">
+    <form [formGroup]="login" (ngSubmit)="myPortfolio()">
+        <div class="mb-3">
+          <label class="form-label">UserName</label>
+          <input type="text" class="form-control" formControlName="userName">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password">
+        </div>
+        <button type="submit" class="btn btn-primary" id="login">Login</button>
+        <button type="button" class="btn btn-link" id="signUp" (click)="signUp()">Sign Up</button>
+    </form>
+</div>

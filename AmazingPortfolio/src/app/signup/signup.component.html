@@ -1,0 +1,26 @@
+<nav class="navbar navbar-light bg-light">
+  <form class="container-fluid justify-content-start">
+    <button class="btn btn-outline-success me-2" type="button" (click)="backToLogin()">Back</button>
+    <span class="navbar-text">
+      Registration Form
+    </span>
+  </form>
+</nav>
+<div class="container-md">
+    <form [formGroup]="signup" (ngSubmit)="register()">
+        <div class="mb-3">
+          <label class="form-label">First Name</label>
+          <input type="text" class="form-control" formControlName="firstName">
+          <label class="form-label">Last Name</label>
+          <input type="text" class="form-control" formControlName="lastName">
+          <label class="form-label">Username</label>
+          <input type="text" class="form-control" formControlName="userName">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" formControlName="password">
+        </div>
+        <button type="submit" class="btn btn-primary" id="register">Register</button>
+        <button type="reset" class="btn btn-link" id="reset">Reset</button>
+    </form>
+</div>
