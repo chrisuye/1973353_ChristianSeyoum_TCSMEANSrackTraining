@@ -1,0 +1,166 @@
+[
+    {
+
+        "ques" : "Which of these U.S. states does NOT border Canada?",
+        "answer": [
+            {"opt":"Indiana", "check":true},
+            {"opt":"Alaska", "check":false},
+            {"opt":"Minnesota", "check":false},
+            {"opt":"Maine", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these countries was NOT a part of the Soviet Union?",
+        "answer": [
+            {"opt":"Poland", "check":true},
+            {"opt":"Ukraine", "check":false},
+            {"opt":"Belarus", "check":false},
+            {"opt":"Georgia", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these cities is NOT a national capital?",
+        "answer": [
+            {"opt":"Sydney", "check":true},
+            {"opt":"Cairo", "check":false},
+            {"opt":"Bangkok", "check":false},
+            {"opt":"Prague", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these cities DOESN'T border the Mediterranean Sea?",
+        "answer": [
+            {"opt":"Monaco", "check":false},
+            {"opt":"Barcelona", "check":false},
+            {"opt":"Lisbon", "check":true},
+            {"opt":"Alexandria", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these countries was NEVER part of the British Empire?",
+        "answer": [
+            {"opt":"New Zealand", "check":false},
+            {"opt":"Thailand", "check":true},
+            {"opt":"Kenya", "check":false},
+            {"opt":"Ireland", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which one of these cities is NOT in the Southern Hemisphere?",
+        "answer": [
+            {"opt":"Brisbane", "check":false},
+            {"opt":"Brasilia", "check":false},
+            {"opt":"Colombo", "check":true},
+            {"opt":"Johannesburg", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which one of these countries is NOT in Central America?",
+        "answer": [
+            {"opt":"Belize", "check":false},
+            {"opt":"Panama", "check":false},
+            {"opt":"Honduras", "check":false},
+            {"opt":"Suriname", "check":true}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these cities does NOT border the Great Lakes?",
+        "answer": [
+            {"opt":"Cleveland", "check":false},
+            {"opt":"Chicago", "check":false},
+            {"opt":"Pittsburgh", "check":true},
+            {"opt":"Toronto", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these countries is NOT majority-Muslim?",
+        "answer": [
+            {"opt":"Ethiopia", "check":true},
+            {"opt":"Morocco", "check":false},
+            {"opt":"Indonesia", "check":false},
+            {"opt":"Albania", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which of these countries is NOT recognized by the United Nations?",
+        "answer": [
+            {"opt":"Israel", "check":false},
+            {"opt":"Taiwan", "check":true},
+            {"opt":"Iran", "check":false},
+            {"opt":"Cyprus", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "What Los Angeles community is noted for celebrities and mansions?",
+        "answer": [
+            {"opt":"Nob Hill", "check":false},
+            {"opt":"Beverly Hills", "check":true},
+            {"opt":"Chestnut Hill", "check":false},
+            {"opt":"Bunker Hill", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which country has the largest capacity reservoir in the world?",
+        "answer": [
+            {"opt":"Egypt", "check":false},
+            {"opt":"United States", "check":false},
+            {"opt":"Uganda", "check":true},
+            {"opt":"Brazil", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Substances that have fast-moving particles that are far apart, and have no definite volume nor shape are:",
+        "answer": [
+            {"opt":"Gases", "check":true},
+            {"opt":"Solids", "check":false},
+            {"opt":"Liquids", "check":false}
+        ]
+    },
+
+    {
+
+        "ques" : "Which state is known as the Beehive State?",
+        "answer": [
+            {"opt":"North Dakota", "check":false},
+            {"opt":"Oregon", "check":false},
+            {"opt":"Georgia", "check":false},
+            {"opt":"Utah", "check":true}
+        ]
+    },
+
+    {
+
+        "ques" : "Which member of Chicago killed himself in 1978?",
+        "answer": [
+            {"opt":"Terry Kath", "check":true},
+            {"opt":"Tommy Bolin", "check":false},
+            {"opt":"Rick Desmond", "check":false},
+            {"opt":"Johnny Hendrix", "check":false}
+        ]
+    }
+
+]

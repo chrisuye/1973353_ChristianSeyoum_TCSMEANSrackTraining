@@ -1,0 +1,20 @@
+table {
+    width: 75%;
+}
+
+form {
+    margin-left: 250px;
+}
+
+table {
+    margin-left: 200px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 4em;
+    font-weight: bold;
+}
