@@ -1,0 +1,18 @@
+[
+   {
+      "firstname": "Christian",
+      "lastname": "Seyoum",
+      "gender": "M",
+      "email": "christian@gmail.com",
+      "time": "02:21 PM",
+      "date": "4/5/2021"
+   },
+   {
+      "firstname": "Sarron",
+      "lastname": "Water",
+      "gender": "M",
+      "email": "sarron@gmail.com",
+      "time": "02:23 PM",
+      "date": "4/5/2021"
+   }
+]
