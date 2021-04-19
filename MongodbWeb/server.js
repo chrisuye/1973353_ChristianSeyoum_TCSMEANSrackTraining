@@ -1,6 +1,6 @@
 let app = require("express")()
 let bodyParser = require("body-parser");
-let port = 9000
+let port = 9090
 
 app.use(bodyParser.urlencoded({extended:true})); 
 
@@ -51,7 +51,7 @@ app.get("/update",(req,res)=>{
 
 app.post("/update",(req,res)=> {
     let id = req.body.courseID
-    let amount = req.body.amount
+    let amount = req.body.Amount
 
     course.updateOne({_id:id}, {amount:amount}, (err, result)=> {
         if(!err){
